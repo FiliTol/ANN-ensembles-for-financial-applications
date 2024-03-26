@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Paper review}{3}{0}{1}
+\beamer@sectionintoc {2}{Matlab implementation}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{A subsection}{7}{0}{2}
+\beamer@sectionintoc {3}{Second Section}{8}{0}{3}
