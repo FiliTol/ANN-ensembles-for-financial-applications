@@ -23,7 +23,7 @@ grid on;
 
 % German
 subplot(3,1,2);
-plot([repelem(max(single(:,4)),7)' multiple(2:end,3)], 'LineWidth', 2)
+plot([repelem(max(single(:,4)),7)' multiple(2:end,3) diversified(2:end,3)], 'LineWidth', 2)
 custom_xticks = 1:7;
 custom_xtick_labels = {'3', '5', '7', '9', '11', '13', '15'};
 xticks(custom_xticks);
@@ -31,7 +31,7 @@ xticklabels(custom_xtick_labels);
 xlabel('Multiple classifier');
 ylabel('Accuracy');
 title('German');
-legend('Single classifier', 'Multiple classifier');
+legend('Single classifier', 'Multiple classifier', 'Diversified multiple classifier');
 grid on;
 
 % Japanese
