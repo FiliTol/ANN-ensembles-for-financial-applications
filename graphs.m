@@ -6,7 +6,7 @@ format long
 
 single = importdata("data/single.csv");
 multiple = importdata("data/multiple.csv");
-diversified = importdata("data/diversified.csv")
+diversified = importdata("data/diversified.csv");
 
 % Australian
 subplot(3,1,1);
@@ -36,7 +36,7 @@ grid on;
 
 % Japanese
 subplot(3,1,3);
-plot([repelem(max(single(:,5)),7)' multiple(2:end,4)], 'LineWidth', 2)
+plot([repelem(max(single(:,5)),7)' multiple(2:end,4) diversified(2:end,4)], 'LineWidth', 2)
 custom_xticks = 1:7;
 custom_xtick_labels = {'3', '5', '7', '9', '11', '13', '15'};
 xticks(custom_xticks);
@@ -44,5 +44,5 @@ xticklabels(custom_xtick_labels);
 xlabel('Multiple classifier');
 ylabel('Accuracy');
 title('Japanese');
-legend('Single classifier', 'Multiple classifier');
+legend('Single classifier', 'Multiple classifier', 'Diversified multiple classifier');
 grid on;
