@@ -46,3 +46,5 @@ ylabel('Accuracy');
 title('Japanese');
 legend('Single classifier', 'Multiple classifier', 'Diversified multiple classifier');
 grid on;
+
+saveas(gcf, 'data/graph.png');
