@@ -1,6 +1,8 @@
 \documentclass[12pt]{beamer}
 \usepackage{tikz}
 \usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{subcaption}
 
 \title[EM2091]{Review and matlab implementation of the paper:} % Text in square brackets is displayed in the footer
 \subtitle{\textit{Using neural network ensembles for bankruptcy prediction and credit scoring (Tsai, Wu)}}
@@ -25,13 +27,126 @@
 
 \section{Paper review}
 
-\begin{frame}{Frame Title}
-    \begin{block}{Acknowledgements}
-    Your mother and your sister, work in the highway traffic.
-    I guess they are in the highway police department.
-    \end{block}
-        
+\subsection{Goals}
+
+\begin{frame}{Goals}
+  \begin{itemize}
+    \item Observe the performance differences between different ANN ensemble
+      approaches, namely single classifiers,
+      multiple classifiers and diversified multiple classifiers, with regards to based on a set
+      credit scoring and bankruptcy detection. The study is based on three
+      of heterogeneous datasets;
+    \item Evaluate the three classifier architectures performance with regards to
+      Type 1 error and Type 2 error.
+  \end{itemize}
 \end{frame}
+
+\subsection{Tools}
+
+\begin{frame}{Tools}
+  \begin{itemize}
+    \item Multilayer Perceptron feedforward Artificial Neural Network
+      \begin{itemize}
+        \item One \textbf{hidden} layer
+        \item Five different values for the \textbf{hidden nodes} hyperparameter
+        \item Four different values for the \textbf{training epochs} hyperparameter
+      \end{itemize}
+    \item Multiple classifiers with two techniques to compute them:
+      \begin{enumerate}
+        \item Best $n$ classifiers for every epoch
+        \item Best $n$ classifiers among all the epochs
+      \end{enumerate}
+      \begin{block}{Note}
+        Technique $1$ is only applicable to $n=3 \wedge n=5$,
+        with $n \in [3,5,7,9,11,13,15]$. Multiple classifiers are based on \textbf{majority voting}.
+      \end{block}
+  \end{itemize}
+\end{frame}
+
+\subsection{Advancements vs previous works}
+
+\begin{frame}{Advancements vs previous works}
+  \begin{itemize}
+    \item Employment of \textbf{multiple datasets} for system validation;
+    \item Usage of \textbf{Type 1 and Type 2 errors} and not only average accuracy measures;
+    \item Testing the classifiers performance on multiple classification tasks
+      rather than a single one, specifically on \textbf{credit scoring} and \textbf{bankruptcy prediction}.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Brief remark}
+\begin{itemize}
+\item \textbf{Type 1} error is associated with \textbf{false positives};
+\item \textbf{Type 2} error is associated with \textbf{false negatives}.
+\end{itemize}
+
+\begin{examples}
+  \begin{itemize}
+    \item \textit{Type 1}: the model classifies a credit-worthy client as a credit-risky one;
+    \item \textit{Type 2}: the model classifiers a credit-risky client as a credit-worthy one.
+  \end{itemize}
+\end{examples}
+
+\end{frame}
+
+\subsection{Study 1}
+
+\begin{frame}{Study 1: single vs multiple classifiers}
+  \begin{itemize}
+    \item Datasets are split into training (70\%) and test (10\%);
+    \item For single classifiers the number of nodes is $nn \in [8,12,16,24,32]$
+      and learning epochs $[50,100,200,300]$.
+    \item Multiple classifers are build with the voting strategy combining the results
+      of the top $n$ classifers, with $n \in [3,5,7,9,11,13,15]$.
+  \end{itemize}
+  \begin{block}{Takeout}
+  On average, the single best classifer outperforms multiple classifers.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Study 1: single vs multiple classifiers}
+  \begin{figure}
+    \centering
+    \subcaptionbox{Australian\label{fig:st1aus}}{\includegraphics[width=0.41\linewidth]{images/st1aus.png}}\hfill
+    \subcaptionbox{German\label{fig:st1ger}}{\includegraphics[width=0.41\linewidth]{images/st1ger.png}}\hfill
+    \subcaptionbox{Japanese\label{fig:st1jap}}{\includegraphics[width=0.41\linewidth]{images/st1jap.png}}
+    \caption{Comparison between single classifiers and multiple classifiers.}
+\end{figure}
+\end{frame}
+
+
+\subsection{Study 2}
+
+\begin{frame}{Study 2: single vs multiple vs diversified classifiers}
+  \begin{itemize}
+    \item Train-test dataset generation is different for diversified multiple classifiers.
+      Specifically, every model composing
+      the classifier is trained on a fraction of the observations from the same
+      dataset, then the majority
+      voting is executed using a test dataset;
+    \item The procedure aims at ensuring \textbf{diversity} between classifiers.
+  \end{itemize}
+
+  \begin{block}{Takeout}
+    The best single classifier is still, on average, a better classifier than
+    the diversified multiple classifier (and the multiple classifier, as seen before).
+  \end{block}
+
+\end{frame}
+
+\begin{frame}{Study 2: single vs multiple vs diversified classifiers}
+  \begin{figure}
+    \centering
+    \subcaptionbox{Australian\label{fig:st2aus}}{\includegraphics[width=0.41\linewidth]{images/st2aus.png}}\hfill
+    \subcaptionbox{German\label{fig:st2ger}}{\includegraphics[width=0.41\linewidth]{images/st2ger.png}}\hfill
+    \subcaptionbox{Japanese\label{fig:st2jap}}{\includegraphics[width=0.41\linewidth]{images/st2jap.png}}
+    \caption{Comparison between single, multiple and diversified classifiers.}
+\end{figure}
+\end{frame}
+
+
+\subsection{Study 3}
+
 
 
 %------------------------------------------------
