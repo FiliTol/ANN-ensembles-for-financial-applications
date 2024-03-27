@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  27 MAR 2024 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  27 MAR 2024 18:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -735,7 +735,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./main.nav)
-<images/logo.png, id=76, 586.19pt x 580.1675pt>
+<images/logo.png, id=92, 586.19pt x 580.1675pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 22.
@@ -800,17 +800,17 @@ Package pdftex.def Info: images/logo.png  used on input line 105.
  [8
 
 ]
-<images/st1aus.png, id=380, 579.16376pt x 289.08pt>
+<images/st1aus.png, id=400, 579.16376pt x 289.08pt>
 File: images/st1aus.png Graphic file (type png)
 <use images/st1aus.png>
 Package pdftex.def Info: images/st1aus.png  used on input line 115.
 (pdftex.def)             Requested size: 139.68643pt x 69.72026pt.
-<images/st1ger.png, id=382, 570.13pt x 278.03876pt>
+<images/st1ger.png, id=402, 570.13pt x 278.03876pt>
 File: images/st1ger.png Graphic file (type png)
 <use images/st1ger.png>
 Package pdftex.def Info: images/st1ger.png  used on input line 115.
 (pdftex.def)             Requested size: 139.68643pt x 68.11797pt.
-<images/st1jap.png, id=383, 570.13pt x 281.05pt>
+<images/st1jap.png, id=403, 570.13pt x 281.05pt>
 File: images/st1jap.png Graphic file (type png)
 <use images/st1jap.png>
 Package pdftex.def Info: images/st1jap.png  used on input line 115.
@@ -824,110 +824,92 @@ Package pdftex.def Info: images/logo.png  used on input line 115.
  <./images/st1aus.png> <./images/st1ger.png> <./images/st1jap.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 135.
+Package pdftex.def Info: images/logo.png  used on input line 134.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [10
 
 ]
-<images/st2aus.png, id=459, 829.0975pt x 420.57124pt>
+<images/st2aus.png, id=480, 829.0975pt x 420.57124pt>
 File: images/st2aus.png Graphic file (type png)
 <use images/st2aus.png>
-Package pdftex.def Info: images/st2aus.png  used on input line 145.
-(pdftex.def)             Requested size: 139.68643pt x 70.85442pt.
-<images/st2ger.png, id=460, 838.13126pt x 418.56375pt>
+Package pdftex.def Info: images/st2aus.png  used on input line 144.
+(pdftex.def)             Requested size: 136.27615pt x 69.12172pt.
+<images/st2ger.png, id=481, 838.13126pt x 418.56375pt>
 File: images/st2ger.png Graphic file (type png)
 <use images/st2ger.png>
-Package pdftex.def Info: images/st2ger.png  used on input line 145.
-(pdftex.def)             Requested size: 139.68643pt x 69.75618pt.
-<images/st2jap.png, id=461, 835.12pt x 415.5525pt>
+Package pdftex.def Info: images/st2ger.png  used on input line 144.
+(pdftex.def)             Requested size: 136.27615pt x 68.05092pt.
+<images/st2jap.png, id=482, 835.12pt x 415.5525pt>
 File: images/st2jap.png Graphic file (type png)
 <use images/st2jap.png>
-Package pdftex.def Info: images/st2jap.png  used on input line 145.
-(pdftex.def)             Requested size: 139.68643pt x 69.50798pt.
-
-Overfull \vbox (1.21396pt too high) detected at line 145
- []
-
+Package pdftex.def Info: images/st2jap.png  used on input line 144.
+(pdftex.def)             Requested size: 136.27615pt x 67.80864pt.
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 145.
+Package pdftex.def Info: images/logo.png  used on input line 144.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
-[11
+ [11
 
  <./images/st2aus.png> <./images/st2ger.png> <./images/st2jap.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 161.
+Package pdftex.def Info: images/logo.png  used on input line 159.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [12
 
 ]
-<images/error.png, id=537, 884.30376pt x 112.42pt>
+<images/error.png, id=558, 884.30376pt x 112.42pt>
 File: images/error.png Graphic file (type png)
 <use images/error.png>
-Package pdftex.def Info: images/error.png  used on input line 169.
+Package pdftex.def Info: images/error.png  used on input line 167.
 (pdftex.def)             Requested size: 340.6956pt x 43.31184pt.
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 169.
+Package pdftex.def Info: images/logo.png  used on input line 167.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [13
 
  <./images/error.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 182.
+Package pdftex.def Info: images/logo.png  used on input line 180.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [14
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 187.
+Package pdftex.def Info: images/logo.png  used on input line 182.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [15
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 205.
+Package pdftex.def Info: images/logo.png  used on input line 194.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [16
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 225.
+Package pdftex.def Info: images/logo.png  used on input line 197.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [17
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 228.
+Package pdftex.def Info: images/logo.png  used on input line 220.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [18
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 244.
+Package pdftex.def Info: images/logo.png  used on input line 224.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [19
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 252.
-(pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
- [20
-
-]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 261.
-(pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
- [21
 
 ]
 \openout4 = `main.vrb'.
@@ -935,23 +917,23 @@ Package pdftex.def Info: images/logo.png  used on input line 261.
  (./main.vrb)
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 270.
+Package pdftex.def Info: images/logo.png  used on input line 238.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
- [22
+ [20
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 283.
+Package pdftex.def Info: images/logo.png  used on input line 251.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
- [23
+ [21
 
  </usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 289.
+Package pdftex.def Info: images/logo.png  used on input line 257.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
- [24
+ [22
 
 ]
 \tf@nav=\write6
@@ -969,21 +951,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E2F9429CA7E804997F09EB65598E3BF5;1390.
+(rerunfilecheck)             Checksum: 6AC80326F646DBD51CB5544A317FEE21;2210.
  ) 
 Here is how much of TeX's memory you used:
- 26699 strings out of 476076
- 529389 string characters out of 5793775
- 1942187 words of memory out of 5000000
- 48211 multiletter control sequences out of 15000+600000
- 570469 words of font info for 83 fonts, out of 8000000 for 9000
+ 26611 strings out of 476076
+ 526700 string characters out of 5793775
+ 1940187 words of memory out of 5000000
+ 48125 multiletter control sequences out of 15000+600000
+ 568470 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,15n,123p,396b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (24 pages, 684685 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (22 pages, 664449 bytes).
 PDF statistics:
- 1016 PDF objects out of 1200 (max. 8388607)
- 827 compressed objects within 9 object streams
+ 928 PDF objects out of 1000 (max. 8388607)
+ 770 compressed objects within 8 object streams
  74 named destinations out of 1000 (max. 500000)
- 647 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 535 words of extra memory for PDF output out of 10000 (max. 10000000)
 

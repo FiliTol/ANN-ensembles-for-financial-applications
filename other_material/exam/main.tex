@@ -89,7 +89,7 @@
 
 \end{frame}
 
-\subsection{Study 1}
+\subsection{Study 1,2,3}
 
 \begin{frame}{Study 1: single vs multiple classifiers}
   \begin{itemize}
@@ -115,7 +115,6 @@
 \end{frame}
 
 
-\subsection{Study 2}
 
 \begin{frame}{Study 2: single vs multiple vs diversified classifiers}
   \begin{itemize}
@@ -137,15 +136,14 @@
 \begin{frame}{Study 2: single vs multiple vs diversified classifiers}
   \begin{figure}
     \centering
-    \subcaptionbox{Australian\label{fig:st2aus}}{\includegraphics[width=0.41\linewidth]{images/st2aus.png}}\hfill
-    \subcaptionbox{German\label{fig:st2ger}}{\includegraphics[width=0.41\linewidth]{images/st2ger.png}}\hfill
-    \subcaptionbox{Japanese\label{fig:st2jap}}{\includegraphics[width=0.41\linewidth]{images/st2jap.png}}
+    \subcaptionbox{Australian\label{fig:st2aus}}{\includegraphics[width=0.40\linewidth]{images/st2aus.png}}\hfill
+    \subcaptionbox{German\label{fig:st2ger}}{\includegraphics[width=0.40\linewidth]{images/st2ger.png}}\hfill
+    \subcaptionbox{Japanese\label{fig:st2jap}}{\includegraphics[width=0.40\linewidth]{images/st2jap.png}}
     \caption{Comparison between single, multiple and diversified classifiers.}
 \end{figure}
 \end{frame}
 
 
-\subsection{Study 3}
 
 \begin{frame}{Study 3: Type 1 and Type 2 errors}
   \begin{itemize}
@@ -181,84 +179,54 @@
   \end{itemize}
 \end{frame}
 
-\subsection{Conclusions}
+\section{A couple of remarks\dots}
+
+\begin{frame}{A couple of remarks\dots}
+  \begin{itemize}
+    \item The methodology used to build the datasets for diversified multiple classifers
+      could be associated with the poor performance by the classifiers. In fact
+      the higher the $n$ the smaller the train-sets used for each models' training.
+      This could lead to a lot of results variability;
+    \item It's not clear why the authors used two methodologies to build the multiple
+      classifiers even though one of them is applicable only to $n=3$ and $n=5$
+      classifiers.
+  \end{itemize}
+\end{frame}
 
 %------------------------------------------------
 \section{Matlab implementation}
 %------------------------------------------------
 
+\subsection{Methodology}
 
-\begin{frame}{Blocks of Highlighted Text}
-    In this slide, some important text will be \alert{highlighted} because it's important. Please, don't abuse it\footnote{This is a footnote}.
 
-    \begin{block}{Block}
-        Sample text
-    \end{block}
 
-    \begin{alertblock}{Alertblock}
-        Sample text in red box
-    \end{alertblock}
+\subsection{Model}
 
-    \begin{examples}
-        Sample text in green box. The title of the block is ``Examples".
-    \end{examples}
+\subsection{Single classifier}
+
+\subsection{Multiple classifier}
+
+\subsection{Diversified multiple classifier}
+
+\subsection{Results of Study 1 and 2}
+
+\subsection{Type 1 and 2 error}
+\begin{frame}{Type 1 and 2 error: setup}
+\begin{itemize}
+  \item \textbf{Single classifier}
+  \item \textbf{Multiple classifier}
+\end{itemize}
 \end{frame}
 
-%------------------------------------------------
-
-\subsection{A subsection}
-\begin{frame}{Multiple Columns}
-    \begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-
-        \column{.45\textwidth} % Left column and width
-        \textbf{Heading}
-        \begin{enumerate}
-            \item Statement
-            \item Explanation
-            \item Example
-        \end{enumerate}
-
-        \column{.5\textwidth} % Right column and width
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
-
-    \end{columns}
+\begin{frame}{Type 1 and 2 error: results}
+  
 \end{frame}
 
-%------------------------------------------------
-\section{Second Section}
-%------------------------------------------------
+\subsection{Conclusions}
 
-\begin{frame}{Table}
-    \begin{table}
-        \begin{tabular}{l l l}
-            \toprule
-            \textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2} \\
-            \midrule
-            Treatment 1         & 0.0003262           & 0.562               \\
-            Treatment 2         & 0.0015681           & 0.910               \\
-            Treatment 3         & 0.0009271           & 0.296               \\
-            \bottomrule
-        \end{tabular}
-        \caption{Table caption}
-    \end{table}
-\end{frame}
 
-%------------------------------------------------
 
-\begin{frame}{Theorem}
-    \begin{theorem}[Mass--energy equivalence]
-        $E = mc^2$
-    \end{theorem}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}{Figure}
-    Uncomment the code on this slide to include your own image from the same directory as the template .TeX file.
-    %\begin{figure}
-    %\includegraphics[width=0.8\linewidth]{test}
-    %\end{figure}
-\end{frame}
 
 %------------------------------------------------
 
@@ -266,7 +234,7 @@
     \frametitle{Citation}
     An example of the \verb|\cite| command to cite within the presentation:\\~
 
-    This statement requires citation \cite{p1}.
+    %This statement requires citation \cite{p1}.
 \end{frame}
 
 %------------------------------------------------
