@@ -5,6 +5,8 @@
 \beamer@subsectionintoc {1}{4}{Study 1}{8}{0}{1}
 \beamer@subsectionintoc {1}{5}{Study 2}{10}{0}{1}
 \beamer@subsectionintoc {1}{6}{Study 3}{12}{0}{1}
-\beamer@sectionintoc {2}{Matlab implementation}{12}{0}{2}
-\beamer@subsectionintoc {2}{1}{A subsection}{14}{0}{2}
-\beamer@sectionintoc {3}{Second Section}{15}{0}{3}
+\beamer@subsectionintoc {1}{7}{Conclusions}{14}{0}{1}
+\beamer@subsectionintoc {1}{8}{Conclusions}{15}{0}{1}
+\beamer@sectionintoc {2}{Matlab implementation}{15}{0}{2}
+\beamer@subsectionintoc {2}{1}{A subsection}{17}{0}{2}
+\beamer@sectionintoc {3}{Second Section}{18}{0}{3}
