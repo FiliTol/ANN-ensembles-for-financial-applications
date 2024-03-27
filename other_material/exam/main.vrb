@@ -1,4 +1,13 @@
-\frametitle{Citation}
-    An example of the \verb|\cite| command to cite within the presentation:\\~
+\frametitle{Model}
+\begin{lstlisting}[style=matlab]
+epochs = [50 100 200 300];
+hidden_nodes = [8 12 16 24 32];
 
-    %This statement requires citation \cite{p1}.
+net = fitcnet(X_train, Y_train,...
+  'Activations','sigmoid',...
+  'IterationLimit',epoch,...
+  'LayerBiasesInitializer','ones');
+  'LayerSizes', node,...
+testAccuracy = 1 - loss(net,X_test,Y_test,...
+"LossFun","classiferror");
+  \end{lstlisting}

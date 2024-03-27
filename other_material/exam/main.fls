@@ -571,10 +571,10 @@ INPUT ./images/logo.png
 INPUT ./images/logo.png
 INPUT ./images/logo.png
 INPUT ./images/logo.png
-OUTPUT main.vrb
-INPUT ./main.vrb
-INPUT ./main.vrb
-INPUT main.vrb
+INPUT ./images/logo.png
+INPUT ./images/logo.png
+INPUT ./images/logo.png
+INPUT ./images/logo.png
 INPUT ./images/logo.png
 INPUT ./images/logo.png
 INPUT ./images/logo.png

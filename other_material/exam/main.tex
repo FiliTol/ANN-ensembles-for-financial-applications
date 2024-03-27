@@ -18,7 +18,7 @@
 }
 
 \title[EM2091]{Review and matlab implementation of the paper:} % Text in square brackets is displayed in the footer
-\subtitle{\textit{Using neural network ensembles for bankruptcy prediction and credit scoring (Tsai, Wu)}}
+\subtitle{\textit{Using neural network ensembles for bankruptcy prediction and credit scoring}}
 \author[Filippo Tolin]{
     \href{mailto:874631@stud.unive.it}{Filippo Tolin}
 }
@@ -240,8 +240,10 @@ epochs = [50 100 200 300];
 hidden_nodes = [8 12 16 24 32];
 
 net = fitcnet(X_train, Y_train,...
-    'LayerSizes', node,...
-    'IterationLimit',epoch,...
+  'Activations','sigmoid',...
+  'IterationLimit',epoch,...
+  'LayerBiasesInitializer','ones');
+  'LayerSizes', node,...
 testAccuracy = 1 - loss(net,X_test,Y_test,...
 "LossFun","classiferror");
   \end{lstlisting}
@@ -298,40 +300,74 @@ testAccuracy = 1 - loss(net,X_test,Y_test,...
     \end{figure}
 \end{frame}
 
+\begin{frame}{Results of Study 1 and 2}
+  \begin{block}{Takeout}
+    From this results can be confirmed that the best single classifier ANN, on
+    average, performs
+    better than the multiple and diversified multiple classifiers across the three
+    datasets and the different classification tasks.
+  \end{block}
+
+  \begin{alertblock}{Note}
+    The exception of multiple classifiers outperforming the single classifiers
+    happens for the japanese dataset, whereas on the paper implementation happens
+    with the german dataset.
+  \end{alertblock}
+\end{frame}
+
 \subsection{Type 1 and 2 error}
 \begin{frame}{Type 1 and 2 error: setup}
 \begin{itemize}
-  \item \textbf{Single classifier}
-  \item \textbf{Multiple classifier}
+  \item \textbf{Single classifier}. For every combination of hyperparameters, the
+    confusion matrix is computed and thus derived the type 1 and 2 errors;
+  \item \textbf{Multiple classifier}. The same procedure is executed for every
+    classifier.
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Type 1 and 2 error: results}
-  
+  \begin{table}[htbp]
+  \centering
+  \caption{Single classifier}
+    \begin{tabular}{cccc}
+    \textbf{Error type} & \textbf{Australian} & \textbf{German} & \textbf{Japanese} \\
+    1 & 0.2107  & 0.1787  & 0.2309 \\
+    2 & 0.2248  & 0.5384  & 0.1675 \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:data1}%
+\end{table}%
+
+\begin{table}[htbp]
+  \centering
+  \caption{Multiple classifier}
+    \begin{tabular}{cccc}
+    \textbf{Error type} & \textbf{Australian} & \textbf{German} & \textbf{Japanese} \\
+    1 & 0.0900 & 0.1605 & 0.1771 \\
+    2 & 0.1977 & 0.5373 & 0.1045 \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:data2}%
+\end{table}%
+
 \end{frame}
 
-\subsection{Conclusions}
-
-
-
-%------------------------------------------------
-
-\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-    \frametitle{Citation}
-    An example of the \verb|\cite| command to cite within the presentation:\\~
-
-    %This statement requires citation \cite{p1}.
+\begin{frame}{Type 1 and 2 errors: results}
+  \begin{block}{Takeout}
+    As according to the paper authors and findings, the performance measured with
+    type 1 and 2 error leaves more doubts about a clear winner model architecture.
+  \end{block}
 \end{frame}
 
-%------------------------------------------------
 
 \begin{frame}{References}
     % Beamer does not support BibTeX so references must be inserted manually as below
     \footnotesize{
         \begin{thebibliography}{99}
-            \bibitem[Smith, 2012]{p1} John Smith (2012)
-            \newblock Title of the publication
-            \newblock \emph{Journal Name} 12(3), 45 -- 678.
+            \bibitem[Chih-Fong Tsai, Jhen-Wei Wu, 2008]{p1} Chih-Fong Tsai, Jhen-Wei Wu (2008)
+            \newblock Using neural network ensembles for bankruptcy prediction and credit
+           scoring
+            \newblock \emph{Expert Systems with Applications} 34(4), 2639 -- 2649.
         \end{thebibliography}
     }
 \end{frame}

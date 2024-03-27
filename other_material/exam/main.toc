@@ -12,5 +12,4 @@
 \beamer@subsectionintoc {3}{4}{Multiple classifier}{21}{0}{3}
 \beamer@subsectionintoc {3}{5}{Diversified multiple classifier}{22}{0}{3}
 \beamer@subsectionintoc {3}{6}{Results of Study 1 and 2}{23}{0}{3}
-\beamer@subsectionintoc {3}{7}{Type 1 and 2 error}{24}{0}{3}
-\beamer@subsectionintoc {3}{8}{Conclusions}{26}{0}{3}
+\beamer@subsectionintoc {3}{7}{Type 1 and 2 error}{25}{0}{3}
