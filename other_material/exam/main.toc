@@ -7,10 +7,10 @@
 \beamer@sectionintoc {2}{A couple of remarks\dots }{15}{0}{2}
 \beamer@sectionintoc {3}{Matlab implementation}{17}{0}{3}
 \beamer@subsectionintoc {3}{1}{Methodology}{18}{0}{3}
-\beamer@subsectionintoc {3}{2}{Model}{18}{0}{3}
-\beamer@subsectionintoc {3}{3}{Single classifier}{18}{0}{3}
-\beamer@subsectionintoc {3}{4}{Multiple classifier}{18}{0}{3}
-\beamer@subsectionintoc {3}{5}{Diversified multiple classifier}{18}{0}{3}
-\beamer@subsectionintoc {3}{6}{Results of Study 1 and 2}{18}{0}{3}
-\beamer@subsectionintoc {3}{7}{Type 1 and 2 error}{18}{0}{3}
-\beamer@subsectionintoc {3}{8}{Conclusions}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{Model}{19}{0}{3}
+\beamer@subsectionintoc {3}{3}{Single classifier}{20}{0}{3}
+\beamer@subsectionintoc {3}{4}{Multiple classifier}{21}{0}{3}
+\beamer@subsectionintoc {3}{5}{Diversified multiple classifier}{22}{0}{3}
+\beamer@subsectionintoc {3}{6}{Results of Study 1 and 2}{23}{0}{3}
+\beamer@subsectionintoc {3}{7}{Type 1 and 2 error}{24}{0}{3}
+\beamer@subsectionintoc {3}{8}{Conclusions}{26}{0}{3}

@@ -3,6 +3,19 @@
 \usepackage{booktabs}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{listings} % Include the listings package for code listings
+
+% Define MATLAB code listing settings
+\lstdefinestyle{matlab}{
+    language=Matlab, % Set the programming language to MATLAB
+    basicstyle=\small\ttfamily, % Set the font style for the code
+    numbers=left, % Display line numbers
+    numberstyle=\tiny, % Set the style for line numbers
+    numbersep=5pt, % Set the distance of line numbers from the code
+    frame=single, % Add a frame around the code
+    framexleftmargin=8mm, % Set the margin for the frame
+    captionpos=b % Position the caption at the bottom of the code listing
+}
 
 \title[EM2091]{Review and matlab implementation of the paper:} % Text in square brackets is displayed in the footer
 \subtitle{\textit{Using neural network ensembles for bankruptcy prediction and credit scoring (Tsai, Wu)}}
@@ -199,17 +212,91 @@
 
 \subsection{Methodology}
 
-
+\begin{frame}{Methodology}
+  \begin{itemize}
+    \item \textbf{Pre-processing}. The datasets used for the matlab implementation
+      are (presumably) the same datasets used by the authors of the paper. The datasets
+      pre-processing, specifically:
+      \begin{itemize}
+        \item \textbf{feature normalization}. In order to apply ANN, all the continuous
+          features need min-max normalization;
+        \item \textbf{one-hot-encoding}. In order to apply ANN, all the categorical
+          features need a different encoding, specifically one-hot-encoding.
+      \end{itemize}
+    \item \textbf{Datasets}. The three datasets were retrieved from the UC Irvine Machine Learning Repository.
+      \begin{itemize}
+        \item Australian (690 x 15);
+        \item German (1000 x 20);
+        \item Japanese (690 x 16).
+      \end{itemize}
+  \end{itemize}
+\end{frame}
 
 \subsection{Model}
 
+\begin{frame}[fragile]{Model}
+  \begin{lstlisting}[style=matlab]
+epochs = [50 100 200 300];
+hidden_nodes = [8 12 16 24 32];
+
+net = fitcnet(X_train, Y_train,...
+    'LayerSizes', node,...
+    'IterationLimit',epoch,...
+testAccuracy = 1 - loss(net,X_test,Y_test,...
+"LossFun","classiferror");
+  \end{lstlisting}
+\end{frame}
+
 \subsection{Single classifier}
+
+\begin{frame}{Single classifier}
+  \begin{block}{Methodology}
+    For the single neural network classifier, the dataset is divided into test
+    (70\%) and train (30\%); then the implementation execute a loop
+    that tests all the possible combinations of hidden nodes and epochs.
+  \end{block}
+\end{frame}
 
 \subsection{Multiple classifier}
 
+\begin{frame}{Multiple classifiers}
+  \begin{alertblock}{Note}
+    Since there seem to not exist a \texttt{MATLAB} function for the multiple
+    classifier for \texttt{fitcnet}, the implementation has been done by hand.
+  \end{alertblock}
+
+\begin{itemize}
+  \item For every $n$ and dataset, $n$ models are trained based on the hyperparameters
+    of best $n$ single classifiers;
+  \item Then predictions are formulated by every model with the test dataset;
+  \item The results of the predictions from $n$ models undergo
+    the majority voting process, where the resulting vector is the vector of the
+    $n$ multiple classifier predictions.
+\end{itemize}
+\end{frame}
+
 \subsection{Diversified multiple classifier}
 
+\begin{frame}{Diversified multiple classifier}
+  \begin{itemize}
+    \item Same structure of multiple classifier, but every model is trained on
+      a different subset of observations from the dataset;
+    \item The algorithm for diversified dataset creation is the following:
+
+    \begin{block}{Dataset splitting}
+       $split = \frac{nrows(dataset)}{2 \times n +1}$, then for every classifier
+      the train dataset is $2 \times split$. Test dataset is of size $split$.
+      \end{block}
+  \end{itemize}
+\end{frame}
+
 \subsection{Results of Study 1 and 2}
+
+\begin{frame}{Results of Study 1 and 2}
+    \begin{figure}
+    \includegraphics[width=0.6\linewidth]{../../data/graph.png}
+    \end{figure}
+\end{frame}
 
 \subsection{Type 1 and 2 error}
 \begin{frame}{Type 1 and 2 error: setup}
@@ -224,7 +311,6 @@
 \end{frame}
 
 \subsection{Conclusions}
-
 
 
 
@@ -249,14 +335,6 @@
         \end{thebibliography}
     }
 \end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-    \Huge{\centerline{The End}}
-\end{frame}
-
-%----------------------------------------------------------------------------------------
 
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  27 MAR 2024 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  27 MAR 2024 19:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,32 +634,56 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count352
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count353
-) (./template.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
-(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count354
+\lst@gtempboxa=\box81
+\lst@token=\toks48
+\lst@length=\count355
+\lst@currlwidth=\dimen328
+\lst@column=\count356
+\lst@pos=\count357
+\lst@lostspace=\dimen329
+\lst@width=\dimen330
+\lst@newlines=\count358
+\lst@lineno=\count359
+\lst@maxwidth=\dimen331
+ (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count360
+\lst@skipnumbers=\count361
+\lst@framebox=\box82
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/02/21 1.10 listings configuration
+))
+Package: listings 2024/02/21 1.10 (Carsten Heinz)
+ (./template.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count354
-\l__pdf_internal_box=\box81
+\l__color_backend_stack_int=\count362
+\l__pdf_internal_box=\box83
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -697,24 +721,24 @@ LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count355
-\scratchdimen=\dimen328
-\scratchbox=\box82
-\nofMPsegments=\count356
-\nofMParguments=\count357
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count358
-\MPscratchDim=\dimen329
-\MPnumerator=\count359
-\makeMPintoPDFobject=\count360
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count363
+\scratchdimen=\dimen332
+\scratchbox=\box84
+\nofMPsegments=\count364
+\nofMParguments=\count365
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen333
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 32.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -733,183 +757,237 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count369
  (./main.nav)
 <images/logo.png, id=92, 586.19pt x 580.1675pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 22.
+Package pdftex.def Info: images/logo.png  used on input line 35.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.png>] (./main.toc)
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 26.
+Package pdftex.def Info: images/logo.png  used on input line 39.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [2
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 28.
+Package pdftex.def Info: images/logo.png  used on input line 41.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [3
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 42.
+Package pdftex.def Info: images/logo.png  used on input line 55.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [4
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 64.
+Package pdftex.def Info: images/logo.png  used on input line 77.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [5
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 75.
+Package pdftex.def Info: images/logo.png  used on input line 88.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [6
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 90.
+Package pdftex.def Info: images/logo.png  used on input line 103.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [7
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 105.
+Package pdftex.def Info: images/logo.png  used on input line 118.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [8
 
 ]
-<images/st1aus.png, id=400, 579.16376pt x 289.08pt>
+<images/st1aus.png, id=406, 579.16376pt x 289.08pt>
 File: images/st1aus.png Graphic file (type png)
 <use images/st1aus.png>
-Package pdftex.def Info: images/st1aus.png  used on input line 115.
+Package pdftex.def Info: images/st1aus.png  used on input line 128.
 (pdftex.def)             Requested size: 139.68643pt x 69.72026pt.
-<images/st1ger.png, id=402, 570.13pt x 278.03876pt>
+<images/st1ger.png, id=408, 570.13pt x 278.03876pt>
 File: images/st1ger.png Graphic file (type png)
 <use images/st1ger.png>
-Package pdftex.def Info: images/st1ger.png  used on input line 115.
+Package pdftex.def Info: images/st1ger.png  used on input line 128.
 (pdftex.def)             Requested size: 139.68643pt x 68.11797pt.
-<images/st1jap.png, id=403, 570.13pt x 281.05pt>
+<images/st1jap.png, id=409, 570.13pt x 281.05pt>
 File: images/st1jap.png Graphic file (type png)
 <use images/st1jap.png>
-Package pdftex.def Info: images/st1jap.png  used on input line 115.
+Package pdftex.def Info: images/st1jap.png  used on input line 128.
 (pdftex.def)             Requested size: 139.68643pt x 68.8557pt.
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 115.
+Package pdftex.def Info: images/logo.png  used on input line 128.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [9
 
  <./images/st1aus.png> <./images/st1ger.png> <./images/st1jap.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 134.
+Package pdftex.def Info: images/logo.png  used on input line 147.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [10
 
 ]
-<images/st2aus.png, id=480, 829.0975pt x 420.57124pt>
+<images/st2aus.png, id=486, 829.0975pt x 420.57124pt>
 File: images/st2aus.png Graphic file (type png)
 <use images/st2aus.png>
-Package pdftex.def Info: images/st2aus.png  used on input line 144.
+Package pdftex.def Info: images/st2aus.png  used on input line 157.
 (pdftex.def)             Requested size: 136.27615pt x 69.12172pt.
-<images/st2ger.png, id=481, 838.13126pt x 418.56375pt>
+<images/st2ger.png, id=487, 838.13126pt x 418.56375pt>
 File: images/st2ger.png Graphic file (type png)
 <use images/st2ger.png>
-Package pdftex.def Info: images/st2ger.png  used on input line 144.
+Package pdftex.def Info: images/st2ger.png  used on input line 157.
 (pdftex.def)             Requested size: 136.27615pt x 68.05092pt.
-<images/st2jap.png, id=482, 835.12pt x 415.5525pt>
+<images/st2jap.png, id=488, 835.12pt x 415.5525pt>
 File: images/st2jap.png Graphic file (type png)
 <use images/st2jap.png>
-Package pdftex.def Info: images/st2jap.png  used on input line 144.
+Package pdftex.def Info: images/st2jap.png  used on input line 157.
 (pdftex.def)             Requested size: 136.27615pt x 67.80864pt.
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 144.
+Package pdftex.def Info: images/logo.png  used on input line 157.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [11
 
  <./images/st2aus.png> <./images/st2ger.png> <./images/st2jap.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 159.
+Package pdftex.def Info: images/logo.png  used on input line 172.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [12
 
 ]
-<images/error.png, id=558, 884.30376pt x 112.42pt>
+<images/error.png, id=564, 884.30376pt x 112.42pt>
 File: images/error.png Graphic file (type png)
 <use images/error.png>
-Package pdftex.def Info: images/error.png  used on input line 167.
+Package pdftex.def Info: images/error.png  used on input line 180.
 (pdftex.def)             Requested size: 340.6956pt x 43.31184pt.
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 167.
+Package pdftex.def Info: images/logo.png  used on input line 180.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [13
 
  <./images/error.png>]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 180.
+Package pdftex.def Info: images/logo.png  used on input line 193.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [14
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 182.
+Package pdftex.def Info: images/logo.png  used on input line 195.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [15
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 194.
+Package pdftex.def Info: images/logo.png  used on input line 207.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [16
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 197.
+Package pdftex.def Info: images/logo.png  used on input line 210.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [17
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 220.
+Package pdftex.def Info: images/logo.png  used on input line 233.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [18
 
 ]
+\openout4 = `main.vrb'.
+
+ (./main.vrb (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+))
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 224.
+Package pdftex.def Info: images/logo.png  used on input line 248.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
  [19
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 258.
+(pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
+ [20
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 276.
+(pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
+ [21
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 291.
+(pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
+ [22
+
+]
+<../../data/graph.png, id=892, 702.9462pt x 721.7364pt>
+File: ../../data/graph.png Graphic file (type png)
+<use ../../data/graph.png>
+Package pdftex.def Info: ../../data/graph.png  used on input line 299.
+(pdftex.def)             Requested size: 204.41943pt x 209.88187pt.
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 299.
+(pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
+ [23
+
+ <../../data/graph.png (PNG copy)>]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 307.
+(pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
+ [24
+
+]
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 311.
+(pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
+ [25
 
 ]
 \openout4 = `main.vrb'.
@@ -917,25 +995,18 @@ Package pdftex.def Info: images/logo.png  used on input line 224.
  (./main.vrb)
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 238.
+Package pdftex.def Info: images/logo.png  used on input line 324.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
- [20
+ [26
 
 ]
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 251.
+Package pdftex.def Info: images/logo.png  used on input line 337.
 (pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
- [21
+ [27
 
  </usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 257.
-(pdftex.def)             Requested size: 42.67912pt x 42.2359pt.
- [22
-
-]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -951,21 +1022,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6AC80326F646DBD51CB5544A317FEE21;2210.
+(rerunfilecheck)             Checksum: F38B134714932F98103C2BE295362970;2210.
  ) 
 Here is how much of TeX's memory you used:
- 26611 strings out of 476076
- 526700 string characters out of 5793775
- 1940187 words of memory out of 5000000
- 48125 multiletter control sequences out of 15000+600000
- 568470 words of font info for 74 fonts, out of 8000000 for 9000
+ 28895 strings out of 476076
+ 556983 string characters out of 5793775
+ 1952187 words of memory out of 5000000
+ 50381 multiletter control sequences out of 15000+600000
+ 568332 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,15n,123p,396b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (22 pages, 664449 bytes).
+ 128i,15n,123p,396b,1782s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (27 pages, 823523 bytes).
 PDF statistics:
- 928 PDF objects out of 1000 (max. 8388607)
- 770 compressed objects within 8 object streams
- 74 named destinations out of 1000 (max. 500000)
- 535 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1124 PDF objects out of 1200 (max. 8388607)
+ 926 compressed objects within 10 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 648 words of extra memory for PDF output out of 10000 (max. 10000000)
 
