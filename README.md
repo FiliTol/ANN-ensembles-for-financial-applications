@@ -15,6 +15,8 @@ The analysis is executed on three different datasets, referred to bankruptcy dat
 and credit scoring. The datasets are referring to the Australian, German and Japanese
 markets.
 
+A brief report about the source paper and the results of the implementation in matlab
+are provided in the [following presentation](presentation.pdf).
 
 ## I'm Using GitHub Under Protest
 
